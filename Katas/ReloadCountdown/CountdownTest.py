@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import unittest
-import Countdown
+from Countdown import *
 
 class CountdownTest(unittest.TestCase):
    def test_initial_state_of_countdown(self):

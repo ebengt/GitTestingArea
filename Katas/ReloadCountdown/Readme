@@ -1,0 +1,11 @@
+"
+   Create a helper class called Countdown with operations:
+      1. Stopped() - true if the countdown has stopped. This is the initial state
+      2. Start(seconds) - set the countdown to seconds, therefore Stopped() will return false
+      3. Decrease(seconds) - decrease the countdown. If time reaches (or passes!) zero, Stopped() will return true again
+
+   When developing the class, think about names. What names feel most "natural" when testing? Feel free to choose other names than Stopped, Start and Decrease, if those feel awkward when testing the class.
+"
+
+--
+More reference: https://sites.google.com/site/tddproblems/all-problems-1/Reload-countdown

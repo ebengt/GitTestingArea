@@ -11,3 +11,9 @@
 *.lai
 *.la
 *.a
+
+# Python compiled objects
+*.pyc
+
+# editor helper files
+.*.swp

@@ -2,14 +2,15 @@
 
 class Countdown:
    def __init__(self):
-      self.started = False;
       self.counter = 0;
 
    def isStopped(self):
-      return not self.started;
+      # The Countdown is stopped if the counter is less or equal than zero.
+      return (self.counter <= 0);
 
    def startCountDown(self, seconds):
-      self.started = True;
+      # Initialize the counter
+      self.counter = seconds;
 
    def decreaseCounter(self):
       self.counter = self.counter - 1;

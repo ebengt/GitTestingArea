@@ -18,5 +18,11 @@ class CountdownTest(unittest.TestCase):
       counter.decreaseCounter()
       self.assertFalse(counter.isStopped())
 
+   def test_after_decreaseCounter_if_counter_is_less_equal_than_zero_state_should_be_true(self):
+      counter = Countdown()
+      counter.startCountDown(1)
+      counter.decreaseCounter()
+      self.assertTrue(counter.isStopped())
+
 if __name__ == '__main__':
    unittest.main()

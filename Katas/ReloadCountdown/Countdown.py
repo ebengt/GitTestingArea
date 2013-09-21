@@ -5,11 +5,12 @@ class Countdown:
       self.counter = 0;
 
    def isStopped(self):
-      # The Countdown is stopped if the counter is less or equal than zero.
+      # The Countdown state is isStopped if self.counter 
+      # is less or equal than zero.
       return (self.counter <= 0);
 
    def startCountDown(self, seconds):
-      # Initialize the counter
+      # Initialize the counter.
       self.counter = seconds;
 
    def decreaseCounter(self):

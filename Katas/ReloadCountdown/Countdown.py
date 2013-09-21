@@ -1,5 +1,5 @@
 #!/usr/bin/python
 
-class Countdown(unittest.TestCase):
+class Countdown:
    def isStopped(self):
       return False;

@@ -1,4 +1,4 @@
 GitTestingArea
 ==============
 
-Playing around with git....
+Playing around with git!

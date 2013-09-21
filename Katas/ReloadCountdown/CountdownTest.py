@@ -7,9 +7,15 @@ class CountdownTest(unittest.TestCase):
       counter = Countdown()
       self.assertTrue(counter.isStopped())
 
-   def test_after_starting_the_countdown_isStopped_is_false(self):
+   def test_after_starting_the_countdown_isStopped_should_be_false(self):
       counter = Countdown()
       counter.startCountDown(10)
+      self.assertFalse(counter.isStopped())
+
+   def test_after_decreaseCounter_if_counter_is_greater_than_zero_state_should_be_false(self):
+      counter = Countdown()
+      counter.startCountDown(10)
+      counter.decreaseCounter()
       self.assertFalse(counter.isStopped())
 
 if __name__ == '__main__':

@@ -2,4 +2,4 @@
 
 class Countdown:
    def isStopped(self):
-      return False;
+      return True;
